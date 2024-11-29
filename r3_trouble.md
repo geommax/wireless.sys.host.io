@@ -52,4 +52,17 @@ error: failed retrieving file 'core.db' from mirror.archlinuxarm.org : Failed to
 error: failed to synchronize all databases (download library error)
 [user@bpir3 ~]$ 
 
+Change geo location repository server to specific region ,
+
+
+(130/130) checking for file conflicts                                                  [##################################################] 100%
+(131/131) checking available disk space                                                [##################################################] 100%
+warning: could not get file information for etc/hostapd/hostapd.accept
+warning: could not get file information for etc/hostapd/hostapd.conf
+warning: could not get file information for etc/hostapd/hostapd.deny
+warning: could not get file information for etc/hostapd/hostapd.eap_user
+warning: could not get file information for etc/hostapd/hostapd.radius_clients
+warning: could not get file information for etc/hostapd/hostapd.vlan
+warning: could not get file information for etc/hostapd/hostapd.wpa_psk
+
 
