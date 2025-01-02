@@ -112,5 +112,23 @@ The `PoolOffset` and `PoolSize` options in the `[DHCPServer]` section of your `.
 sudo systemctl restart systemd-networkd
 ```
 
-
+### Change Date & TIME ZONE (auto sync)
+```
+[root@bpir3 user]# sudo timedatectl set-timezone Asia/Yangon
+```
+```
+[root@bpir3 user]# date
+Thu Jan  2 17:03:36 +0630 2025
+```
+```
+[root@bpir3 user]# timedatectl
+               Local time: Thu 2025-01-02 17:03:46 +0630
+           Universal time: Thu 2025-01-02 10:33:46 UTC
+                 RTC time: n/a
+                Time zone: Asia/Yangon (+0630, +0630)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no
+[root@bpir3 user]# 
+```
 
